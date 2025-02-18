@@ -2,12 +2,12 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
+
+
+const app = express();
 app.use(cors({
   origin: "*" // Allow all origins, or specify your frontend domain like "https://apodfornasa.netlify.app"
 }));
-
-const app = express();
-app.use(cors()); // Enable CORS so your React app can access this endpoint
 
 // Use your NASA API key from environment variables or hardcode it (not recommended for production)
 const API_KEY = process.env.NASA_API_KEY || 'HzrcfhFHiMnTM1uBmd2ucqa7KCvuDM7wZHKfYeOR';
