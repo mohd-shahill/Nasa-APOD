@@ -2,6 +2,9 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
+app.use(cors({
+  origin: "*" // Allow all origins, or specify your frontend domain like "https://apodfornasa.netlify.app"
+}));
 
 const app = express();
 app.use(cors()); // Enable CORS so your React app can access this endpoint
