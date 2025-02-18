@@ -94,7 +94,7 @@ const SearchPage = () => {
         <div className="flex items-center space-x-4 mb-4">
           <input
             type="text"
-            placeholder="Search by keyword or date..."
+            placeholder="Search by keyword"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="p-3 border bg-transparent text-white border-zinc-400 rounded-md"
