@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    height:100vh;
+    margin: 0;
+    --x: calc(var(--posX, 0) * 1px);
+    --y: calc(var(--posY, 0) * 1px);
+    background-image: 
+      linear-gradient(115deg, rgb(28, 91, 143), rgba(54, 79, 78, 0.113)), 
+      radial-gradient( 90% 100% at calc( 50% + var(--x)) calc( 0% + var(--y)), rgb(105, 115, 138), rgb(32, 30, 34)), 
+      radial-gradient(100% 100% at calc( 80% - var(--x)) calc( 0% - var(--y)), rgb(60, 60, 47), rgba(242, 249, 251, 0)), 
+      radial-gradient(150% 210% at calc(100% + var(--x)) calc( 0% + var(--y)), rgba(79, 91, 96, 0.229), rgb(169, 171, 202)), 
+      radial-gradient(100% 100% at calc(100% - var(--x)) calc(30% - var(--y)), rgb(51, 51, 55), rgb(16, 19, 20)), 
+      linear-gradient(60deg, rgb(120, 123, 128), rgb(5, 38, 71));
+    background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+  } */
+
+  /* body {
+    height: 100vh;
+    margin: 0;
+    --x: calc(var(--posX, 0) * 1px);
+    --y: calc(var(--posY, 0) * 1px);
+    background-image: 
+      /* Nebula effect in the center that moves with the mouse */
+      /* radial-gradient(ellipse at calc(50% + var(--x)) calc(50% + var(--y)), rgba(255, 100, 150, 0.3), transparent 70%), */
+      /* Nebula effect in the top left that shifts slightly */
+      /* radial-gradient(ellipse at calc(30% + var(--x)) calc(30% + var(--y)), rgba(100, 150, 255, 0.3), transparent 70%), */
+      /* Subtle glow in the bottom right */
+      /* radial-gradient(ellipse at calc(70% + var(--x)) calc(70% + var(--y)), rgba(150, 255, 200, 0.2), transparent 80%), */
+      /* Deep space backdrop */
+      /* linear-gradient(60deg, #0d1b2a, #1b263b);
+    background-blend-mode: screen, screen, overlay, normal;
+  }
+   */ 
