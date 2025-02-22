@@ -29,7 +29,7 @@ const SearchPage = () => {
       url = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&start_date=${formatDate(startDate)}&end_date=${formatDate(endDate)}`;
     } else if (query) {
       // If only a keyword is provided, use your backend for keyword search
-      url = `http://localhost:5000/search?query=${query}`;
+      url = `https://nasa-apod-vglf.onrender.com/search?query=${query}`;
     } else {
       // If no search criteria is provided, fetch recent images (last 10 days)
       const today = new Date();
