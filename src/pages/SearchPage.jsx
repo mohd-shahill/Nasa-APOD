@@ -107,7 +107,7 @@ const SearchPage = () => {
               selected={pickDate}
               onChange={(date) => setPickDate(date)}
               className="border p-3 bg-transparent text-white border-zinc-400 rounded-md"
-              placeholderText="Pick a Date"
+              placeholderText="Pick a Date - MM/DD/YYYY"
             />
           </div>
         </div>
