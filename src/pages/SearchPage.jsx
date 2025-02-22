@@ -98,15 +98,15 @@ const SearchPage = () => {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="p-3 border bg-transparent text-white border-zinc-400 rounded-md"
-            style={{ width: "1250px" }}
+            style={{ width: "1150px" }}
           />
 
           {/* Pick a single date */}
-          <div style={{ width: "200px" }}>
+          <div style={{ width: "350px" }}>
             <DatePicker
               selected={pickDate}
               onChange={(date) => setPickDate(date)}
-              className="border p-3 bg-transparent text-white border-zinc-400 rounded-md"
+              className="border w-80 p-3 bg-transparent text-white border-zinc-400 rounded-md"
               placeholderText="Pick a Date - MM/DD/YYYY"
             />
           </div>
