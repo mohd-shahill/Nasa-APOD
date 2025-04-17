@@ -4,7 +4,6 @@ Explore the universe one day at a time with **NASA's Astronomy Picture of the Da
 This project is a sleek, responsive, and interactive web app that fetches images and information from the NASA APOD API. Users can explore daily space pictures, search by keyword, browse by date, and view detailed information.
 
 🔗 **Live Demo:** [https://apodfornasa.netlify.app](https://apodfornasa.netlify.app)  
-🔗 **Backend API:** [https://nasa-apod-vglf.onrender.com](https://nasa-apod-vglf.onrender.com)
 
 ---
 
